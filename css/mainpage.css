@@ -67,3 +67,26 @@
     background-color: #222;
     color: #fff;
   }
+
+  .navbar-dark {
+    background-color: #222;
+    color: #fff;
+  }
+
+  .dark-mode-switch {
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+    z-index: 9999;
+  }
+  .light-links{
+    color: #fff !important;
+  }
+
+  .light-links:hover {
+    border-bottom: 4px solid #ffffff !important;
+  }
+
+  .active-dark {
+    border-bottom: 4px solid #f4e9e9 !important;
+  }
