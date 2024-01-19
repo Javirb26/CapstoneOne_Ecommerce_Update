@@ -1,6 +1,10 @@
-const toggleButton = document.getElementById('dark-mode-toggle');
-const navbar = document.getElementById('navbar');
+const darkModeToggle = document.getElementById('dark-mode-toggle');
+const body = document.body;
+const navbar = document.querySelector('.navbar');
+const links = document.querySelectorAll('a');
 
-toggleButton.addEventListener('click', () => {
-  navbar.classList.toggle('dark-mode');
+darkModeToggle.addEventListener('click', () => {
+  body.classList.toggle('dark-mode');
+  navbar.classList.toggle('navbar-dark');
+  links.forEach(link => link.classList.toggle('light-links'));
 });
