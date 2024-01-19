@@ -164,25 +164,6 @@ body {
     color: white;
 }
 
-/* footer */
-
-footer {
-    background-color: #f3f4f6;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-}
-
-footer p {
-    text-align: center;
-    line-height: 10vh;
-}
-
-footer p a {
-    text-decoration: none;
-    color: #000000;
-}
-
 /* Responsive*/
 
 @media (max-width: 820px){
