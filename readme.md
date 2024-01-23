@@ -1,8 +1,96 @@
-# Capstone 1: E-commerce
-ARCV is an a consumer to consumer e-commerce store built to bring people who are looking for a sense of history and passion in there wardrobe. But not just like any of e commerce fashion store ARCV allows its users to not only buy and sell archival/fashion pieces but also trade them in a safe manner this is still in development but will outputed in a timley fashion.
+# ARCV - Archival Fashion E-Commerce Platform Capstone 2.0
+## Introduction
+ARCV, now in its Capstone 2.0 update, continues to revolutionize the consumer-to-consumer e-commerce space for fashion enthusiasts. Focused on offering a blend of history and unique fashion pieces, this platform allows users to engage in buying, selling, and trading archival fashion items in a secure and user-friendly environment.
 
-Users will be able to follow our news letters and hear about the latest fashion trends also engage in our forum page and enteract with like minded individuals. Also soon to come will be articles pertaining to fashion history, news, and the state of fashion.
+### What's New in Capstone 2.0
+The latest update, Capstone 2.0, brings significant enhancements to the ARCV platform, making the user experience more intuitive and visually appealing:
 
-ARCV is in pre alpha stages so this work is just a mock up of what to expect many more ideas and features will be implemented going into the future
+*  Dark Mode Feature: A much-requested dark mode has been added to every page, reducing eye strain and providing a modern aesthetic.
 
-One function that thought was cool was creating the cards for the products in html and decorating them in css adding the oppacity changing the font size, color and weight also setting the class properties for all card images to be the same and repeat i struggled alot with making images fit how i wanted and not conflict
+* Responsive Navigation and Footer: Navigation and footer elements have been redesigned to be fully responsive, ensuring a seamless experience across various devices and screen sizes.
+
+* Enhanced Registration Process: The registration page has been updated for better responsiveness, making the sign-up process smoother and more accessible on different devices.
+
+## Team Collaboration
+The successful development and launch of ARCV Capstone 2.0 are attributed to the collaborative efforts of our skilled team members: Aviad, Javier, Amaris, Tolani, Jesse, and Armanie. Each member played a crucial role in the update, contributing their unique skills and perspectives to enhance the platform.
+
+## Updates
+### Here we have showcased a handful of updates we've added to ARCV: 
+
+Navbar Structure and Design
+Old Code:
+Used Bootstrap's navbar-expand-lg class for a responsive navbar with a traditional layout.
+
+```
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">ARCV</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!-- Navigation items -->
+      </ul>
+    </div>
+  </div>
+</nav>
+```
+New Code:
+Simplified custom navbar with a logo, dark mode toggle, and responsive menu button for improved user experience.
+
+```
+<nav class="navbar">
+  <div class="logo"><h1>ARCV</h1></div>
+  <ul class="menu">
+    <button class="dark-mode-switch" id="dark-mode-toggle">Toggle Dark Mode</button>
+    <!-- Other menu items -->
+  </ul>
+  <!-- Responsive menu button -->
+  <div class="menu-btn">
+    <i class="fa fa-bars"></i>
+  </div>
+</nav>
+```
+Footer Section
+Old Code:
+A simpler footer with minimal content and basic links.
+```
+<footer>
+  <div class="footer"></div>
+    <p>Copyrights at<a href=""> ARCV</a></p>
+      <ul>
+        <li>Contact us</li>
+        <li>Help</li>
+    </ul>
+  </div>
+</footer>
+```
+New Code:
+A more comprehensive footer with two columns for page navigation and social media links, styled with a modern, dark theme.
+```
+<footer class="py-5 bg-dark border-top text-white text-center">
+  <div class="container">
+    <!-- Footer content with social links -->
+  </div>
+</footer>
+```
+Main Content Area
+Old Code:
+Lacks detailed content in the main section, providing a basic layout.
+
+```
+<section class="sec">
+  <!-- Old main content -->
+</section>
+```
+New Code:
+Includes rich content with headings like "Promise," "Quality," "About," and "What sets us apart," each accompanied by descriptive text, enhancing the content presentation.
+
+```
+<div class="container py-5">
+  <main>
+    <!-- New detailed content with headings and paragraphs -->
+  </main>
+</div>
+```
